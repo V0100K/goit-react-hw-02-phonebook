@@ -5,7 +5,6 @@ import s from "./ContactListItem.module.css";
 const ContactListItem = ({ name, number, id, onDeletContact }) => (
   <li className={s.contactListItem}>
     <p className={s.contact}>
-      {" "}
       {name}: {number}
     </p>
     <button
